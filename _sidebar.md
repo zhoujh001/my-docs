@@ -1,20 +1,32 @@
-- [**Java 全栈开发学习笔记**](README.md)
-- **Java 程序员 ZZM**
-  - [设置 Redis 开机启动](https://mp.weixin.qq.com/s/9DVvr-tfsnhe5EU60Ys2Uw)
-  - [Linux 安装 Redis，Windows 安装 Redis](https://mp.weixin.qq.com/s/wMD7JsW7nO9MNAfLoS3goQ)
-  - [Keepalived + Nginx 实现高可用 Web 负载均衡](https://mp.weixin.qq.com/s/mb2Dpd5iKTkvZd22YoXegQ)
-  - [Linux，Windows 安装 Nginx](https://mp.weixin.qq.com/s/x7JktQH3RIzGeRTQts7Xxg)
-  - [设置 Nginx 开机启动](https://mp.weixin.qq.com/s/EZWVZo5tTXpuUxIjEGXf_A)
-  - [Sentinel-dashboard 的流控配置持久化到 Nacos](https://mp.weixin.qq.com/s/J1pBh1gpqmKqKD0qYdkclg)
-  - [Nacos 安装](https://mp.weixin.qq.com/s/duFTZTsnR1CHfn5OUFzFuw)
-  - [tomcat+redis+Redisson 实现 session 共享](https://mp.weixin.qq.com/s/KCxxRyAEusIQ3paTKw2eiw)
-- Redis
-  - [设置 Redis 开机启动](Redis/设置Redis开机启动/README.md)
-  - [Linux 安装 Redis，Windows 安装 Redis](Redis/Redis安装/README.md)
-- Linux
-  - [Keepalived + Nginx 实现高可用 Web 负载均衡](Linux/Keepalived%20+%20Nginx%20实现高可用%20Web%20负载均衡/README.md)
-  - [Linux，Windows 安装 Nginx](Linux/Nginx安装/README.md)
-  - [设置 Nginx 开机启动](Linux/设置Nginx开机启动/README.md)
-  - [Sentinel-dashboard 的流控配置持久化到 Nacos](Linux/Sentinel-dashboard的流量控制配置持久化到Nacos-推模式/README.md)
-  - [Nacos 安装](Linux/Nacos安装/README.md)
-  - [tomcat+redis+Redisson 实现 session 共享](Linux/tomcat+redis+Redisson实现session共享/README.md)
+- 基础算法
+
+  - [排序](基础算法/排序.md)
+  - 数据结构
+  - 搜索
+  - 动态规划（DP）
+  - 图论
+
+- JAVA 基础
+
+  - 多线程
+  - JVM
+
+- 常用框架
+
+- 前端
+
+  - Vue
+  - Angular
+  - React
+  - 工程化
+
+- 数据库&中间件
+
+  - Oracle
+  - MySql
+  - PostgreSQL
+  - Redis
+
+- 开发工具
+  - IDEA 优化配置
+  - VSCODE 配置
