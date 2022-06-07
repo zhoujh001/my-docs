@@ -12,7 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
     />
     <!-- 黑暗主题，可选的有 buble，dark，dolphin，pure -->
     <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">-->
@@ -22,16 +22,16 @@
     <script>
       window.$docsify = {
         name: 'Java开发笔记',
-        disqus: 'zhoujh',
+        // disqus: 'zhoujh',
         logo: '/img/avator.jpeg',
         repo: 'https://github.com/zhoujh001/my-docs',
-        coverpage: '_coverpage.md', // 设置封面
+        coverpage: false, // 设置封面 '_coverpage.md'
         onlyCover: true, // 只显示封面
-        loadSidebar: '_sidebar.md', // 设置侧边栏
+        loadSidebar: true, // 设置侧边栏
         autoHeader: true,
-        loadNavbar: '_navbar.md', // 设置导航栏
+        loadNavbar: true, // 设置导航栏
         auto2top: true, //切换页面后是否自动跳转到页面顶部
-        subMaxLevel: 3, //侧边栏显示当前页面的目录(标题)
+        subMaxLevel: 2, //侧边栏显示当前页面的目录(标题)
         // 搜索配置参数
         search: {
           placeholder: '搜索关键字', // 搜索提示框文字， 支持本地化，例子在下面
@@ -51,8 +51,8 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!--Medium's 风格的图片缩放插件-->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-    <!--Disqus评论系统支持-->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+    <!-- Disqus评论系统支持 -->
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
     <!-- 添加一键拷贝代码-->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
     <!--docsify的分页导航插件-->
